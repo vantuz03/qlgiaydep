@@ -1,0 +1,29 @@
+@media (min-width: 420px){
+	.banner.banner2 .jcs-row>div:nth-child(1) {
+		flex: 100%;
+	}
+}
+
+@media (min-width: 768px){
+	 .banner.no_slider.banner2 .page2-image-slider img {
+		width: auto;
+	}
+	
+	.banner.banner2 .jcs-row>div:nth-child(1) {
+		flex: 1;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.header h4.site-title {
+		color: #000000;
+	}
+  
+	.page2-slider-wrapper.down.no_slider {
+		width: calc(75% - 10px);
+	}
+	
+	.slider3-flex.jcs-row {
+		justify-content: flex-end;
+	}
+}

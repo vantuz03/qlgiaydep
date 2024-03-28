@@ -1,0 +1,53 @@
+2024-03-26T07:23:26+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_660277ee6e5d1httplocalhostqlgiaydepwp-admin","smb_name":"PROD","redirect_url":"http:\/\/localhost\/qlgiaydep\/wp-admin\/"}
+ ajax: no
+2024-03-26T07:23:26+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+X-Tt-Logid: 202403260723254B8DE4B79CF19198FAD9,202403260723254B8DE4B79CF19198FAD9
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+x-tt-trace-host: 018a7bd0c2b79e5fceb6e6f185aaade47d1d86cd3304a44fb1c5853d051a1362e159065c0d033f5ca0ba4067375434246cf51a5c67d769de60960821ccc41d285e5fa7f6b860874c6dd2ea17a42842e52e4b716e88db6d5255087f150e7b2accda28cf3828c44fecce49bcde5e364691e8
+x-tt-trace-id: 00-2403260723254B8DE4B79CF19198FAD9-25540B05606419A1-00
+Server: TLB
+Content-Encoding: gzip
+Content-Length: 208
+X-Origin-Response-Time: 102,23.44.4.38
+X-Akamai-Request-ID: 86af408.12f0667c
+Date: Tue, 26 Mar 2024 07:23:26 GMT
+X-Cache: TCP_MISS from a27-77-82-228.deploy.akamaitechnologies.com (AkamaiGHost/11.4.3-54726453) (-)
+Connection: close
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_MISS from a23-44-4-38.deploy.akamaitechnologies.com (AkamaiGHost/11.4.4-55034233) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=53, origin; dur=102
+Server-Timing: inner; dur=97
+X-Parent-Response-Time: 151,27.77.82.228
+
+{"code":0,"msg":"ok","data":{"app_id":"7350569407367610370","app_secret":"4dc8d3762b6ad82cca041a38366341c7dc1cc097","external_data_key":"e73158f7-a770-4bd6-8711-fcca49f26719","redirect_uri":"http:\/\/localhost\/qlgiaydep\/wp-admin\/"}}
+
+2024-03-26T08:09:22+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2024-03-26T08:09:22+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2024-03-26T08:09:22+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2024-03-26T08:09:22+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2024-03-26T08:09:22+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2024-03-26T08:09:23+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2024-03-26T08:09:23+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2024-03-26T08:09:23+00:00 DEBUG tt4b_product_delete: missing access token for tt4b_product_sync
+2024-03-26T09:39:09+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-03-26T09:39:09+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2024-03-26T09:39:26+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2024-03-26T09:39:26+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: Missing option "access_token"
+2024-03-26T09:39:26+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-03-26T09:39:26+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2024-03-26T09:39:43+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-03-26T09:39:43+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2024-03-26T09:39:51+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2024-03-26T09:39:51+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: Missing option "access_token"
+2024-03-26T14:41:34+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-03-26T14:41:34+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"
+2024-03-26T14:41:41+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: hit AddToCart
+2024-03-26T14:41:41+00:00 DEBUG Tt4b_Pixel_Class::inject_add_to_cart_event: Missing option "access_token"
+2024-03-26T14:41:41+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: hit ViewContent
+2024-03-26T14:41:41+00:00 DEBUG Tt4b_Pixel_Class::inject_view_content_event: Missing option "access_token"

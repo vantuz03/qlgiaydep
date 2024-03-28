@@ -1,0 +1,109 @@
+/*
+Theme Name: Storefit
+Theme URI: https://sellerthemes.com/storefit-free
+Author: Seller Themes
+Author URI: https://sellerthemes.com/
+Description: Storefit is the ultimate ecommerce multipurpose WordPress theme for online stores. Whether you're selling clothing, electronics, garments, furniture, gadgets, beauty products & all types of store/website. With Storefit, you can create a stunning and professional looking online store in just a few clicks, It offers a customizable design, mobile-friendly interface, SEO optimization, Fully WooCommerce integration, one-click demo import, and fast loading times. Try Storefit to create a stunning online store. Unlock all premium features. Visit Storefit premium demo. https://preview.sellerthemes.com/pro/storefit
+Template: retailsy
+Version: 2.6
+Tested up to: 6.4
+Requires PHP: 5.6
+License: GPLv3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: storefit
+Slug: storefit
+Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu,  custom-logo, featured-image-header, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, blog, e-commerce, portfolio, editor-style, grid-layout
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+
+/*** Header Section ***/
+.header-two .product-category-btn {
+	padding: 0;
+	overflow: unset;
+}
+
+.header-two .product-category-btn .fa.fa-spinner.active{
+	right: -17px;
+}
+
+.navigation-middle .logo .site-title, .navigation-middle .logo .site-description{
+	color: initial;
+}
+
+
+.menubar {
+	/* margin-left: 40px; */
+}
+
+.product-category-menus .product-category-menus-list {
+	margin-top: 30px;
+}
+
+/*** Slider ***/
+
+.slider3-wrap .banner-main-content {
+	color: #ffffff;
+}
+
+/*** Section ***/
+.sec3feature>div:first-of-type {
+    order: 1;
+}
+
+.wc-block-mini-cart__icon,
+.wc-block-mini-cart__badge {
+	color: inherit;
+}
+
+.sidebar .widget .wp-block-pullquote cite {
+    z-index: 1;
+}
+
+.sidebar .widget .wp-block-group .is-nowrap {
+	margin: 1.563rem 1.000rem 1.563rem;
+}
+
+.wp-block-post-title a {
+    text-decoration: none;
+}
+
+.wp-block-details summary {
+	font-weight: 600;
+}
+
+.wp-block-group.has-black-border-color {
+	border-color: #333 !important;
+}
+
+.widget .wp-block-group .wp-block-preformatted a {
+	color: inherit;
+}
+
+.wp-block-woocommerce-single-product .wp-block-post-title a {
+	text-decoration: none;
+}
+
+.wc-block-grid__products .wc-block-components-product-sale-badge.wc-block-grid__product-onsale {
+	letter-spacing: 0.2px;
+	border: none;
+}
+
+.footer-sidebar .widget .wp-block-group .wp-block-image .wp-element-caption a {
+	color:inherit;
+}
+
+.wp-block-archives-list a {
+	text-decoration: none;
+}
+
+.sidebar .widget .wp-block-group .is-nowrap p {
+	padding: 0;
+}
+
+.sidebar .widget.widget_block .wp-block-group ul.wp-block-latest-posts__list {
+    margin-left: 0;
+}
